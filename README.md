@@ -10,7 +10,6 @@ Distance Calculation: Calculate the distance covered using speed and time.
 
 Time Calculation: Find out the time taken based on speed and distance.
 
-Responsive Design: Works seamlessly on desktops, tablets, and mobile devices.
 
 📸 Demo![run test](https://github.com/user-attachments/assets/b093c9bc-5e0c-47d5-9269-fca6e65ab6e2)
 
