@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" >
+    <!-- try with phone -->
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Running calculator</h1>
+        <h3>Choose what you want to calculate</h3>
+        <div id="calculatorTypes">
+        <input type="radio" id="speedRadio" name="calculatorType" value="SPEED" checked>
+        <label for="speedRadio">Speed</label>
+        <input type="radio" id="distanceRadio" name="calculatorType" value="DISTANCE" >
+        <label for="distanceRadio">Distance</label>
+        <input type="radio" id="timeRadio" name="calculatorType" value="TIME">
+        <label for="timeRadio">Time</label>
+        </div>
+        <div id="formContainer">
+            <!-- <form id="calculateForm">
+                <label for="kilometersVal">Kilometers: </label>
+                <input type="number" id="kilometersVal" placeholder="Enter kilometers"  min="0">
+                <label for="metersVal">Meters: </label>
+                <input type="number" id="metersVal" placeholder="Enter meters"  min="0">
+                
+                
+                <label for="hoursVal">Hours: </label>
+                <input type="number" id="hoursVal" placeholder="Enter hours"  min="0">
+
+                <label for="minutesVal"> Minutes: </label>
+                <input type="number" id="minutesVal" placeholder="Enter minutes"  min="0">
+
+                <label for="secondsVal">Seconds: </label>
+                <input type="number" id="secondsVal" placeholder="Enter seconds"  min="0" >
+    
+                <button type="submit"> Calculate speed</button>
+            </form>  -->
+    </div>
+        <h2>Result:</h2>
+        <div id="result"> 0 </div>
+    </div>
+
+</body>
+</html>
+
+
+
+ <!-- <form id="speedForm">
+            <label for="kilometers">Kilometers: </label>
+            <input type="number" id="kilometers" placeholder="Enter kilometers" value="0" min="0">
+            <label for="meters">Meters: </label>
+            <input type="number" id="meters" placeholder="Enter meters" value="0" min="0">
+            
+            
+            <label for="hours">Hours: </label>
+            <input type="number" id="hours" placeholder="Enter hours" value="0" min="0">
+            <label for="minutes"> Minutes: </label>
+            <input type="number" id="minutes" placeholder="Enter minutes" value="0" min="0">
+            <label for="seconds">Seconds: </label>
+            <input type="number" id="seconds" placeholder="Enter seconds" value="0" min="0" required>
+
+            <button type="submit"> Calculate speed</button>
+        </form> -->
